@@ -1,0 +1,3306 @@
+[
+  {
+    "id": 1,
+    "rarity": 5,
+    "level": 1,
+    "priority": 30,
+    "name": "Antidote Jewel 1",
+    "skills": "poisonResistance-1"
+  },
+  {
+    "id": 2,
+    "rarity": 5,
+    "level": 1,
+    "priority": 30,
+    "name": "Antipara Jewel 1",
+    "skills": "paralysisResistance-1"
+  },
+  {
+    "id": 3,
+    "rarity": 5,
+    "level": 1,
+    "priority": 30,
+    "name": "Pep Jewel 1",
+    "skills": "sleepResistance-1"
+  },
+  {
+    "id": 4,
+    "rarity": 6,
+    "level": 1,
+    "priority": 30,
+    "name": "Steadfast Jewel 1",
+    "skills": "stunResistance-1"
+  },
+  {
+    "id": 5,
+    "rarity": 5,
+    "level": 1,
+    "priority": 30,
+    "name": "Antiblast Jewel 1",
+    "skills": "blastResistance-1"
+  },
+  {
+    "id": 6,
+    "rarity": 5,
+    "level": 1,
+    "priority": 30,
+    "name": "Def Lock Jewel 1",
+    "skills": "ironSkin-1"
+  },
+  {
+    "id": 7,
+    "rarity": 5,
+    "level": 1,
+    "priority": 30,
+    "name": "Fire Res Jewel 1",
+    "skills": "fireResistance-1"
+  },
+  {
+    "id": 8,
+    "rarity": 5,
+    "level": 1,
+    "priority": 30,
+    "name": "Water Res Jewel 1",
+    "skills": "waterResistance-1"
+  },
+  {
+    "id": 9,
+    "rarity": 5,
+    "level": 1,
+    "priority": 30,
+    "name": "Thunder Res Jewel 1",
+    "skills": "thunderResistance-1"
+  },
+  {
+    "id": 10,
+    "rarity": 5,
+    "level": 1,
+    "priority": 30,
+    "name": "Ice Res Jewel 1",
+    "skills": "iceResistance-1"
+  },
+  {
+    "id": 11,
+    "rarity": 5,
+    "level": 1,
+    "priority": 30,
+    "name": "Dragon Res Jewel 1",
+    "skills": "dragonResistance-1"
+  },
+  {
+    "id": 12,
+    "rarity": 7,
+    "level": 1,
+    "priority": 90,
+    "name": "Attack Jewel 1",
+    "skills": "attackBoost-1"
+  },
+  {
+    "id": 13,
+    "rarity": 6,
+    "level": 1,
+    "priority": 80,
+    "name": "Blaze Jewel 1",
+    "skills": "fireAttack-1"
+  },
+  {
+    "id": 14,
+    "rarity": 6,
+    "level": 1,
+    "priority": 80,
+    "name": "Stream Jewel 1",
+    "skills": "waterAttack-1"
+  },
+  {
+    "id": 15,
+    "rarity": 6,
+    "level": 1,
+    "priority": 80,
+    "name": "Bolt Jewel 1",
+    "skills": "thunderAttack-1"
+  },
+  {
+    "id": 16,
+    "rarity": 6,
+    "level": 1,
+    "priority": 80,
+    "name": "Frost Jewel 1",
+    "skills": "iceAttack-1"
+  },
+  {
+    "id": 17,
+    "rarity": 6,
+    "level": 1,
+    "priority": 80,
+    "name": "Dragon Jewel 1",
+    "skills": "dragonAttack-1"
+  },
+  {
+    "id": 18,
+    "rarity": 6,
+    "level": 1,
+    "priority": 80,
+    "name": "Venom Jewel 1",
+    "skills": "poisonAttack-1"
+  },
+  {
+    "id": 19,
+    "rarity": 6,
+    "level": 1,
+    "priority": 90,
+    "name": "Expert Jewel 1",
+    "skills": "criticalEye-1"
+  },
+  {
+    "id": 20,
+    "rarity": 6,
+    "level": 1,
+    "priority": 50,
+    "name": "Sheath Jewel 1",
+    "skills": "quickSheath-1"
+  },
+  {
+    "id": 21,
+    "rarity": 6,
+    "level": 1,
+    "priority": 50,
+    "name": "Stonethrower Jewel 1",
+    "skills": "slingerCapacity-1"
+  },
+  {
+    "id": 22,
+    "rarity": 6,
+    "level": 1,
+    "priority": 50,
+    "name": "Enduring Jewel 1",
+    "skills": "itemProlonger-1"
+  },
+  {
+    "id": 23,
+    "rarity": 6,
+    "level": 1,
+    "priority": 50,
+    "name": "Gobbler Jewel 1",
+    "skills": "speedEating-1"
+  },
+  {
+    "id": 24,
+    "rarity": 6,
+    "level": 1,
+    "priority": 30,
+    "name": "Resistor Jewel 1",
+    "skills": "blightResistance-1"
+  },
+  {
+    "id": 25,
+    "rarity": 6,
+    "level": 1,
+    "priority": 70,
+    "name": "Vitality Jewel 1",
+    "skills": "healthBoost-1"
+  },
+  {
+    "id": 26,
+    "rarity": 6,
+    "level": 1,
+    "priority": 50,
+    "name": "Grinder Jewel 1",
+    "skills": "speedSharpening-1"
+  },
+  {
+    "id": 27,
+    "rarity": 6,
+    "level": 1,
+    "priority": 50,
+    "name": "Defense Jewel 1",
+    "skills": "defenseBoost-1"
+  },
+  {
+    "id": 28,
+    "rarity": 6,
+    "level": 1,
+    "priority": 50,
+    "name": "Drain Jewel 1",
+    "skills": "staminaThief-1"
+  },
+  {
+    "id": 29,
+    "rarity": 6,
+    "level": 1,
+    "priority": 70,
+    "name": "Friendship Jewel 1",
+    "skills": "wideRange-1"
+  },
+  {
+    "id": 30,
+    "rarity": 5,
+    "level": 1,
+    "priority": 10,
+    "name": "Meowster Jewel 1",
+    "skills": "palicoRally-1"
+  },
+  {
+    "id": 31,
+    "rarity": 5,
+    "level": 1,
+    "priority": 50,
+    "name": "Crisis Jewel 1",
+    "skills": "resuscitate-1"
+  },
+  {
+    "id": 32,
+    "rarity": 5,
+    "level": 1,
+    "priority": 10,
+    "name": "Scent Jewel 1",
+    "skills": "scenthound-1"
+  },
+  {
+    "id": 33,
+    "rarity": 5,
+    "level": 1,
+    "priority": 10,
+    "name": "Intimidator Jewel 1",
+    "skills": "intimidator-1"
+  },
+  {
+    "id": 34,
+    "rarity": 5,
+    "level": 1,
+    "priority": 10,
+    "name": "Hungerless Jewel 1",
+    "skills": "hungerResistance-1"
+  },
+  {
+    "id": 35,
+    "rarity": 5,
+    "level": 1,
+    "priority": 50,
+    "name": "Heavy Artillery Jewel 1",
+    "skills": "heavyArtillery-1"
+  },
+  {
+    "id": 36,
+    "rarity": 5,
+    "level": 1,
+    "priority": 10,
+    "name": "Survival Jewel 1",
+    "skills": "survivalExpert-1"
+  },
+  {
+    "id": 37,
+    "rarity": 5,
+    "level": 1,
+    "priority": 10,
+    "name": "Geology Jewel 1",
+    "skills": "geologist-1"
+  },
+  {
+    "id": 38,
+    "rarity": 5,
+    "level": 1,
+    "priority": 10,
+    "name": "Tip Toe Jewel 1",
+    "skills": "stealth-1"
+  },
+  {
+    "id": 39,
+    "rarity": 5,
+    "level": 1,
+    "priority": 50,
+    "name": "Fortitude Jewel 1",
+    "skills": "fortify-1"
+  },
+  {
+    "id": 40,
+    "rarity": 5,
+    "level": 1,
+    "priority": 10,
+    "name": "Specimen Jewel 1",
+    "skills": "entomologist-1"
+  },
+  {
+    "id": 41,
+    "rarity": 5,
+    "level": 1,
+    "priority": 10,
+    "name": "Miasma Jewel 1",
+    "skills": "effluviaResistance-1"
+  },
+  {
+    "id": 42,
+    "rarity": 5,
+    "level": 1,
+    "priority": 70,
+    "name": "Protection Jewel 1",
+    "skills": "divineBlessing-1"
+  },
+  {
+    "id": 43,
+    "rarity": 5,
+    "level": 1,
+    "priority": 10,
+    "name": "Mirewalker Jewel 1",
+    "skills": "aquaticExpert-1"
+  },
+  {
+    "id": 44,
+    "rarity": 5,
+    "level": 1,
+    "priority": 10,
+    "name": "Botany Jewel 1",
+    "skills": "botanist-1"
+  },
+  {
+    "id": 45,
+    "rarity": 5,
+    "level": 1,
+    "priority": 10,
+    "name": "Suture Jewel 1",
+    "skills": "bleedingResistance-1"
+  },
+  {
+    "id": 46,
+    "rarity": 5,
+    "level": 1,
+    "priority": 50,
+    "name": "Satiated Jewel 1",
+    "skills": "freeMeal-1"
+  },
+  {
+    "id": 47,
+    "rarity": 6,
+    "level": 1,
+    "priority": 60,
+    "name": "Sonorous Jewel 1",
+    "skills": "hornMaestro-1"
+  },
+  {
+    "id": 48,
+    "rarity": 5,
+    "level": 1,
+    "priority": 70,
+    "name": "Maintenance Jewel 1",
+    "skills": "toolSpecialist-1"
+  },
+  {
+    "id": 69,
+    "rarity": 8,
+    "level": 1,
+    "priority": 60,
+    "name": "Fungiform Jewel 1",
+    "skills": "mushroomancer-1"
+  },
+  {
+    "id": 72,
+    "rarity": 7,
+    "level": 1,
+    "priority": 50,
+    "name": "Trueshot Jewel 1",
+    "skills": "specialAmmoBoost-1"
+  },
+  {
+    "id": 73,
+    "rarity": 7,
+    "level": 1,
+    "priority": 80,
+    "name": "Sleep Jewel 1",
+    "skills": "sleepAttack-1"
+  },
+  {
+    "id": 74,
+    "rarity": 6,
+    "level": 1,
+    "priority": 50,
+    "name": "Recovery Jewel 1",
+    "skills": "recoverySpeed-1"
+  },
+  {
+    "id": 75,
+    "rarity": 7,
+    "level": 1,
+    "priority": 80,
+    "name": "Paralyzer Jewel 1",
+    "skills": "paralysisAttack-1"
+  },
+  {
+    "id": 76,
+    "rarity": 6,
+    "level": 1,
+    "priority": 50,
+    "name": "Medicine Jewel 1",
+    "skills": "recoveryUp-1"
+  },
+  {
+    "id": 77,
+    "rarity": 7,
+    "level": 1,
+    "priority": 50,
+    "name": "Ironwall Jewel 1",
+    "skills": "guard-1"
+  },
+  {
+    "id": 78,
+    "rarity": 6,
+    "level": 1,
+    "priority": 50,
+    "name": "Bomber Jewel 1",
+    "skills": "bombardier-1"
+  },
+  {
+    "id": 79,
+    "rarity": 7,
+    "level": 1,
+    "priority": 80,
+    "name": "Blast Jewel 1",
+    "skills": "blastAttack-1"
+  },
+  {
+    "id": 80,
+    "rarity": 8,
+    "level": 1,
+    "priority": 50,
+    "name": "Artillery Jewel 1",
+    "skills": "artillery-1"
+  },
+  {
+    "id": 49,
+    "rarity": 8,
+    "level": 2,
+    "priority": 90,
+    "name": "Critical Jewel 2",
+    "skills": "criticalBoost-1"
+  },
+  {
+    "id": 50,
+    "rarity": 5,
+    "level": 2,
+    "priority": 50,
+    "name": "Flight Jewel 2",
+    "skills": "airborne-1"
+  },
+  {
+    "id": 51,
+    "rarity": 6,
+    "level": 2,
+    "priority": 50,
+    "name": "Slider Jewel 2",
+    "skills": "affinitySliding-1"
+  },
+  {
+    "id": 52,
+    "rarity": 6,
+    "level": 2,
+    "priority": 90,
+    "name": "Tenderizer Jewel 2",
+    "skills": "weaknessExploit-1"
+  },
+  {
+    "id": 53,
+    "rarity": 6,
+    "level": 2,
+    "priority": 60,
+    "name": "KO Jewel 2",
+    "skills": "slugger-1"
+  },
+  {
+    "id": 54,
+    "rarity": 7,
+    "level": 2,
+    "priority": 40,
+    "name": "Mighty Jewel 2",
+    "skills": "maximumMight-1"
+  },
+  {
+    "id": 55,
+    "rarity": 8,
+    "level": 2,
+    "priority": 60,
+    "name": "Mighty Bow Jewel 2",
+    "skills": "bowChargePlus-1"
+  },
+  {
+    "id": 56,
+    "rarity": 8,
+    "level": 2,
+    "priority": 60,
+    "name": "Charger Jewel 2",
+    "skills": "focus-1"
+  },
+  {
+    "id": 57,
+    "rarity": 6,
+    "level": 2,
+    "priority": 60,
+    "name": "Destroyer Jewel 2",
+    "skills": "partbreaker-1"
+  },
+  {
+    "id": 58,
+    "rarity": 6,
+    "level": 2,
+    "priority": 60,
+    "name": "Elementless Jewel 2",
+    "skills": "nonElementalBoost-1"
+  },
+  {
+    "id": 59,
+    "rarity": 6,
+    "level": 2,
+    "priority": 40,
+    "name": "Evasion Jewel 2",
+    "skills": "evadeWindow-1"
+  },
+  {
+    "id": 60,
+    "rarity": 6,
+    "level": 2,
+    "priority": 40,
+    "name": "Footing Jewel 2",
+    "skills": "tremorResistance-1"
+  },
+  {
+    "id": 61,
+    "rarity": 6,
+    "level": 2,
+    "priority": 40,
+    "name": "Wind Resist Jewel 2",
+    "skills": "windproof-1"
+  },
+  {
+    "id": 62,
+    "rarity": 7,
+    "level": 2,
+    "priority": 40,
+    "name": "Potential Jewel 2",
+    "skills": "heroics-1"
+  },
+  {
+    "id": 71,
+    "rarity": 8,
+    "level": 2,
+    "priority": 40,
+    "name": "Mind's Eye Jewel 2",
+    "skills": "mindsEyeBallistics-1"
+  },
+  {
+    "id": 81,
+    "rarity": 7,
+    "level": 2,
+    "priority": 40,
+    "name": "Throttle Jewel 2",
+    "skills": "latentPower-1"
+  },
+  {
+    "id": 82,
+    "rarity": 8,
+    "level": 2,
+    "priority": 60,
+    "name": "Sprinter Jewel 2",
+    "skills": "marathonRunner-1"
+  },
+  {
+    "id": 83,
+    "rarity": 7,
+    "level": 2,
+    "priority": 40,
+    "name": "Shield Jewel 2",
+    "skills": "guardUp-1"
+  },
+  {
+    "id": 84,
+    "rarity": 7,
+    "level": 2,
+    "priority": 40,
+    "name": "Sharp Jewel 2",
+    "skills": "protectivePolish-1"
+  },
+  {
+    "id": 85,
+    "rarity": 7,
+    "level": 2,
+    "priority": 60,
+    "name": "Refresh Jewel 2",
+    "skills": "staminaSurge-1"
+  },
+  {
+    "id": 86,
+    "rarity": 6,
+    "level": 2,
+    "priority": 60,
+    "name": "Physique Jewel 2",
+    "skills": "constitution-1"
+  },
+  {
+    "id": 87,
+    "rarity": 7,
+    "level": 2,
+    "priority": 60,
+    "name": "Magazine Jewel 2",
+    "skills": "capacityBoost-1"
+  },
+  {
+    "id": 88,
+    "rarity": 6,
+    "level": 2,
+    "priority": 40,
+    "name": "Jumping Jewel 2",
+    "skills": "evadeExtender-1"
+  },
+  {
+    "id": 89,
+    "rarity": 7,
+    "level": 2,
+    "priority": 40,
+    "name": "Furor Jewel 2",
+    "skills": "resentment-1"
+  },
+  {
+    "id": 90,
+    "rarity": 7,
+    "level": 2,
+    "priority": 40,
+    "name": "Flawless Jewel 2",
+    "skills": "peakPerformance-1"
+  },
+  {
+    "id": 91,
+    "rarity": 7,
+    "level": 2,
+    "priority": 60,
+    "name": "Enhancer Jewel 2",
+    "skills": "powerProlonger-1"
+  },
+  {
+    "id": 92,
+    "rarity": 8,
+    "level": 2,
+    "priority": 40,
+    "name": "Draw Jewel 2",
+    "skills": "criticalDraw-1"
+  },
+  {
+    "id": 93,
+    "rarity": 10,
+    "level": 2,
+    "priority": 60,
+    "name": "Guardian Jewel 2",
+    "skills": "offensiveGuard-1"
+  },
+  {
+    "id": 94,
+    "rarity": 7,
+    "level": 2,
+    "priority": 90,
+    "name": "Challenger Jewel 2",
+    "skills": "agitator-1"
+  },
+  {
+    "id": 63,
+    "rarity": 6,
+    "level": 3,
+    "priority": 40,
+    "name": "Earplugs Jewel 3",
+    "skills": "earplugs-1"
+  },
+  {
+    "id": 64,
+    "rarity": 8,
+    "level": 3,
+    "priority": 70,
+    "name": "Handicraft Jewel 3",
+    "skills": "handicraft-1"
+  },
+  {
+    "id": 65,
+    "rarity": 6,
+    "level": 3,
+    "priority": 20,
+    "name": "Poisoncoat Jewel 3",
+    "skills": "poisonFunctionality-1"
+  },
+  {
+    "id": 66,
+    "rarity": 6,
+    "level": 3,
+    "priority": 20,
+    "name": "Brace Jewel 3",
+    "skills": "flinchFree-1"
+  },
+  {
+    "id": 67,
+    "rarity": 7,
+    "level": 3,
+    "priority": 20,
+    "name": "Paracoat Jewel 3",
+    "skills": "paraFunctionality-1"
+  },
+  {
+    "id": 68,
+    "rarity": 7,
+    "level": 3,
+    "priority": 60,
+    "name": "Forceshot Jewel 3",
+    "skills": "normalShots-1"
+  },
+  {
+    "id": 70,
+    "rarity": 8,
+    "level": 3,
+    "priority": 60,
+    "name": "Spread Jewel 3",
+    "skills": "spreadPowerShots-1"
+  },
+  {
+    "id": 95,
+    "rarity": 7,
+    "level": 3,
+    "priority": 20,
+    "name": "Sleepcoat Jewel 3",
+    "skills": "sleepFunctionality-1"
+  },
+  {
+    "id": 96,
+    "rarity": 8,
+    "level": 3,
+    "priority": 60,
+    "name": "Release Jewel 3",
+    "skills": "freeElemAmmoUp-1"
+  },
+  {
+    "id": 97,
+    "rarity": 8,
+    "level": 3,
+    "priority": 60,
+    "name": "Pierce Jewel 3",
+    "skills": "piercingShots-1"
+  },
+  {
+    "id": 98,
+    "rarity": 7,
+    "level": 3,
+    "priority": 20,
+    "name": "Dragonseal Jewel 3",
+    "skills": "eldersealBoost-1"
+  },
+  {
+    "id": 99,
+    "rarity": 7,
+    "level": 3,
+    "priority": 20,
+    "name": "Blastcoat Jewel 3",
+    "skills": "blastFunctionality-1"
+  },
+  {
+    "id": 100,
+    "rarity": 11,
+    "level": 3,
+    "priority": 90,
+    "name": "Phoenix Jewel 3",
+    "skills": "coalescence-1"
+  },
+  {
+    "id": 101,
+    "rarity": 9,
+    "level": 4,
+    "priority": 31,
+    "name": "Antidote Jewel+ 4",
+    "skills": "poisonResistance-2"
+  },
+  {
+    "id": 102,
+    "rarity": 9,
+    "level": 4,
+    "priority": 31,
+    "name": "Antipara Jewel+ 4",
+    "skills": "paralysisResistance-2"
+  },
+  {
+    "id": 103,
+    "rarity": 9,
+    "level": 4,
+    "priority": 31,
+    "name": "Pep Jewel+ 4",
+    "skills": "sleepResistance-2"
+  },
+  {
+    "id": 104,
+    "rarity": 9,
+    "level": 4,
+    "priority": 31,
+    "name": "Steadfast Jewel+ 4",
+    "skills": "stunResistance-2"
+  },
+  {
+    "id": 105,
+    "rarity": 9,
+    "level": 4,
+    "priority": 31,
+    "name": "Antiblast Jewel+ 4",
+    "skills": "blastResistance-2"
+  },
+  {
+    "id": 106,
+    "rarity": 9,
+    "level": 4,
+    "priority": 31,
+    "name": "Def Lock Jewel+ 4",
+    "skills": "ironSkin-2"
+  },
+  {
+    "id": 107,
+    "rarity": 9,
+    "level": 4,
+    "priority": 31,
+    "name": "Fire Res Jewel+ 4",
+    "skills": "fireResistance-2"
+  },
+  {
+    "id": 108,
+    "rarity": 9,
+    "level": 4,
+    "priority": 31,
+    "name": "Water Res Jewel+ 4",
+    "skills": "waterResistance-2"
+  },
+  {
+    "id": 109,
+    "rarity": 9,
+    "level": 4,
+    "priority": 31,
+    "name": "Thunder Res Jewel+ 4",
+    "skills": "thunderResistance-2"
+  },
+  {
+    "id": 110,
+    "rarity": 9,
+    "level": 4,
+    "priority": 31,
+    "name": "Ice Res Jewel+ 4",
+    "skills": "iceResistance-2"
+  },
+  {
+    "id": 111,
+    "rarity": 9,
+    "level": 4,
+    "priority": 31,
+    "name": "Dragon Res Jewel+ 4",
+    "skills": "dragonResistance-2"
+  },
+  {
+    "id": 112,
+    "rarity": 12,
+    "level": 4,
+    "priority": 91,
+    "name": "Attack Jewel+ 4",
+    "skills": "attackBoost-2"
+  },
+  {
+    "id": 113,
+    "rarity": 11,
+    "level": 4,
+    "priority": 81,
+    "name": "Blaze Jewel+ 4",
+    "skills": "fireAttack-2"
+  },
+  {
+    "id": 114,
+    "rarity": 11,
+    "level": 4,
+    "priority": 81,
+    "name": "Stream Jewel+ 4",
+    "skills": "waterAttack-2"
+  },
+  {
+    "id": 115,
+    "rarity": 11,
+    "level": 4,
+    "priority": 81,
+    "name": "Bolt Jewel+ 4",
+    "skills": "thunderAttack-2"
+  },
+  {
+    "id": 116,
+    "rarity": 11,
+    "level": 4,
+    "priority": 81,
+    "name": "Frost Jewel+ 4",
+    "skills": "iceAttack-2"
+  },
+  {
+    "id": 117,
+    "rarity": 11,
+    "level": 4,
+    "priority": 81,
+    "name": "Dragon Jewel+ 4",
+    "skills": "dragonAttack-2"
+  },
+  {
+    "id": 118,
+    "rarity": 11,
+    "level": 4,
+    "priority": 81,
+    "name": "Venom Jewel+ 4",
+    "skills": "poisonAttack-2"
+  },
+  {
+    "id": 119,
+    "rarity": 12,
+    "level": 4,
+    "priority": 91,
+    "name": "Expert Jewel+ 4",
+    "skills": "criticalEye-2"
+  },
+  {
+    "id": 120,
+    "rarity": 9,
+    "level": 4,
+    "priority": 51,
+    "name": "Sheath Jewel+ 4",
+    "skills": "quickSheath-2"
+  },
+  {
+    "id": 121,
+    "rarity": 9,
+    "level": 4,
+    "priority": 51,
+    "name": "Stonethrower Jewel+ 4",
+    "skills": "slingerCapacity-2"
+  },
+  {
+    "id": 122,
+    "rarity": 9,
+    "level": 4,
+    "priority": 51,
+    "name": "Enduring Jewel+ 4",
+    "skills": "itemProlonger-2"
+  },
+  {
+    "id": 123,
+    "rarity": 9,
+    "level": 4,
+    "priority": 51,
+    "name": "Gobbler Jewel+ 4",
+    "skills": "speedEating-2"
+  },
+  {
+    "id": 124,
+    "rarity": 9,
+    "level": 4,
+    "priority": 31,
+    "name": "Resistor Jewel+ 4",
+    "skills": "blightResistance-2"
+  },
+  {
+    "id": 125,
+    "rarity": 9,
+    "level": 4,
+    "priority": 71,
+    "name": "Vitality Jewel+ 4",
+    "skills": "healthBoost-2"
+  },
+  {
+    "id": 126,
+    "rarity": 9,
+    "level": 4,
+    "priority": 51,
+    "name": "Grinder Jewel+ 4",
+    "skills": "speedSharpening-2"
+  },
+  {
+    "id": 127,
+    "rarity": 9,
+    "level": 4,
+    "priority": 51,
+    "name": "Defense Jewel+ 4",
+    "skills": "defenseBoost-2"
+  },
+  {
+    "id": 128,
+    "rarity": 9,
+    "level": 4,
+    "priority": 51,
+    "name": "Drain Jewel+ 4",
+    "skills": "staminaThief-2"
+  },
+  {
+    "id": 129,
+    "rarity": 10,
+    "level": 4,
+    "priority": 71,
+    "name": "Friendship Jewel+ 4",
+    "skills": "wideRange-2"
+  },
+  {
+    "id": 130,
+    "rarity": 9,
+    "level": 4,
+    "priority": 11,
+    "name": "Meowster Jewel+ 4",
+    "skills": "palicoRally-2"
+  },
+  {
+    "id": 133,
+    "rarity": 9,
+    "level": 4,
+    "priority": 9,
+    "name": "Intimidator Jewel+ 4",
+    "skills": "intimidator-2"
+  },
+  {
+    "id": 134,
+    "rarity": 9,
+    "level": 4,
+    "priority": 11,
+    "name": "Hungerless Jewel+ 4",
+    "skills": "hungerResistance-2"
+  },
+  {
+    "id": 135,
+    "rarity": 9,
+    "level": 4,
+    "priority": 51,
+    "name": "Heavy Artillery Jewel+ 4",
+    "skills": "heavyArtillery-2"
+  },
+  {
+    "id": 136,
+    "rarity": 9,
+    "level": 4,
+    "priority": 11,
+    "name": "Survival Jewel+ 4",
+    "skills": "survivalExpert-2"
+  },
+  {
+    "id": 137,
+    "rarity": 9,
+    "level": 4,
+    "priority": 11,
+    "name": "Geology Jewel+ 4",
+    "skills": "geologist-2"
+  },
+  {
+    "id": 138,
+    "rarity": 9,
+    "level": 4,
+    "priority": 11,
+    "name": "Tip Toe Jewel+ 4",
+    "skills": "stealth-2"
+  },
+  {
+    "id": 140,
+    "rarity": 9,
+    "level": 4,
+    "priority": 11,
+    "name": "Specimen Jewel+ 4",
+    "skills": "entomologist-2"
+  },
+  {
+    "id": 141,
+    "rarity": 9,
+    "level": 4,
+    "priority": 11,
+    "name": "Miasma Jewel+ 4",
+    "skills": "effluviaResistance-2"
+  },
+  {
+    "id": 142,
+    "rarity": 9,
+    "level": 4,
+    "priority": 71,
+    "name": "Protection Jewel+ 4",
+    "skills": "divineBlessing-2"
+  },
+  {
+    "id": 143,
+    "rarity": 9,
+    "level": 4,
+    "priority": 11,
+    "name": "Mirewalker Jewel+ 4",
+    "skills": "aquaticExpert-2"
+  },
+  {
+    "id": 144,
+    "rarity": 9,
+    "level": 4,
+    "priority": 11,
+    "name": "Botany Jewel+ 4",
+    "skills": "botanist-2"
+  },
+  {
+    "id": 145,
+    "rarity": 9,
+    "level": 4,
+    "priority": 11,
+    "name": "Suture Jewel+ 4",
+    "skills": "bleedingResistance-2"
+  },
+  {
+    "id": 146,
+    "rarity": 9,
+    "level": 4,
+    "priority": 51,
+    "name": "Satiated Jewel+ 4",
+    "skills": "freeMeal-2"
+  },
+  {
+    "id": 147,
+    "rarity": 9,
+    "level": 4,
+    "priority": 61,
+    "name": "Sonorous Jewel+ 4",
+    "skills": "hornMaestro-2"
+  },
+  {
+    "id": 148,
+    "rarity": 9,
+    "level": 4,
+    "priority": 71,
+    "name": "Maintenance Jewel+ 4",
+    "skills": "toolSpecialist-2"
+  },
+  {
+    "id": 159,
+    "rarity": 11,
+    "level": 4,
+    "priority": 41,
+    "name": "Evasion Jewel+ 4",
+    "skills": "evadeWindow-2"
+  },
+  {
+    "id": 161,
+    "rarity": 12,
+    "level": 4,
+    "priority": 41,
+    "name": "Wind Resist Jewel+ 4",
+    "skills": "windproof-2"
+  },
+  {
+    "id": 162,
+    "rarity": 11,
+    "level": 4,
+    "priority": 41,
+    "name": "Potential Jewel+ 4",
+    "skills": "heroics-2"
+  },
+  {
+    "id": 163,
+    "rarity": 12,
+    "level": 4,
+    "priority": 41,
+    "name": "Earplugs Jewel+ 4",
+    "skills": "earplugs-2"
+  },
+  {
+    "id": 164,
+    "rarity": 12,
+    "level": 4,
+    "priority": 71,
+    "name": "Handicraft Jewel+ 4",
+    "skills": "handicraft-2"
+  },
+  {
+    "id": 169,
+    "rarity": 9,
+    "level": 4,
+    "priority": 61,
+    "name": "Fungiform Jewel+ 4",
+    "skills": "mushroomancer-2"
+  },
+  {
+    "id": 172,
+    "rarity": 12,
+    "level": 4,
+    "priority": 51,
+    "name": "Trueshot Jewel+ 4",
+    "skills": "specialAmmoBoost-2"
+  },
+  {
+    "id": 173,
+    "rarity": 11,
+    "level": 4,
+    "priority": 81,
+    "name": "Sleep Jewel+ 4",
+    "skills": "sleepAttack-2"
+  },
+  {
+    "id": 174,
+    "rarity": 9,
+    "level": 4,
+    "priority": 51,
+    "name": "Recovery Jewel+ 4",
+    "skills": "recoverySpeed-2"
+  },
+  {
+    "id": 175,
+    "rarity": 12,
+    "level": 4,
+    "priority": 81,
+    "name": "Paralyzer Jewel+ 4",
+    "skills": "paralysisAttack-2"
+  },
+  {
+    "id": 176,
+    "rarity": 9,
+    "level": 4,
+    "priority": 51,
+    "name": "Medicine Jewel+ 4",
+    "skills": "recoveryUp-2"
+  },
+  {
+    "id": 177,
+    "rarity": 10,
+    "level": 4,
+    "priority": 51,
+    "name": "Ironwall Jewel+ 4",
+    "skills": "guard-2"
+  },
+  {
+    "id": 178,
+    "rarity": 12,
+    "level": 4,
+    "priority": 51,
+    "name": "Bomber Jewel+ 4",
+    "skills": "bombardier-2"
+  },
+  {
+    "id": 179,
+    "rarity": 11,
+    "level": 4,
+    "priority": 81,
+    "name": "Blast Jewel+ 4",
+    "skills": "blastAttack-2"
+  },
+  {
+    "id": 180,
+    "rarity": 9,
+    "level": 4,
+    "priority": 51,
+    "name": "Artillery Jewel+ 4",
+    "skills": "artillery-2"
+  },
+  {
+    "id": 181,
+    "rarity": 11,
+    "level": 4,
+    "priority": 41,
+    "name": "Throttle Jewel+ 4",
+    "skills": "latentPower-2"
+  },
+  {
+    "id": 186,
+    "rarity": 10,
+    "level": 4,
+    "priority": 61,
+    "name": "Physique Jewel+ 4",
+    "skills": "constitution-2"
+  },
+  {
+    "id": 189,
+    "rarity": 11,
+    "level": 4,
+    "priority": 41,
+    "name": "Furor Jewel+ 4",
+    "skills": "resentment-2"
+  },
+  {
+    "id": 194,
+    "rarity": 11,
+    "level": 4,
+    "priority": 91,
+    "name": "Challenger Jewel+ 4",
+    "skills": "agitator-2"
+  },
+  {
+    "id": 207,
+    "rarity": 11,
+    "level": 4,
+    "priority": 32,
+    "name": "Hard Fire Res Jewel 4",
+    "skills": "fireResistance-3"
+  },
+  {
+    "id": 208,
+    "rarity": 11,
+    "level": 4,
+    "priority": 32,
+    "name": "Hard Water Res Jewel 4",
+    "skills": "waterResistance-3"
+  },
+  {
+    "id": 209,
+    "rarity": 11,
+    "level": 4,
+    "priority": 32,
+    "name": "Hard Thunder Res Jewel 4",
+    "skills": "thunderResistance-3"
+  },
+  {
+    "id": 210,
+    "rarity": 11,
+    "level": 4,
+    "priority": 32,
+    "name": "Hard Ice Res Jewel 4",
+    "skills": "iceResistance-3"
+  },
+  {
+    "id": 211,
+    "rarity": 11,
+    "level": 4,
+    "priority": 32,
+    "name": "Hard Dragon Res Jewel 4",
+    "skills": "dragonResistance-3"
+  },
+  {
+    "id": 222,
+    "rarity": 11,
+    "level": 4,
+    "priority": 32,
+    "name": "Hard Enduring Jewel 4",
+    "skills": "itemProlonger-3"
+  },
+  {
+    "id": 227,
+    "rarity": 10,
+    "level": 4,
+    "priority": 32,
+    "name": "Hard Defense Jewel 4",
+    "skills": "defenseBoost-3"
+  },
+  {
+    "id": 230,
+    "rarity": 9,
+    "level": 4,
+    "priority": 12,
+    "name": "Hard Meowster Jewel 4",
+    "skills": "palicoRally-3"
+  },
+  {
+    "id": 233,
+    "rarity": 9,
+    "level": 4,
+    "priority": 9,
+    "name": "Hard Intimidator Jewel 4",
+    "skills": "intimidator-3"
+  },
+  {
+    "id": 236,
+    "rarity": 9,
+    "level": 4,
+    "priority": 11,
+    "name": "Hard Survival Jewel 4",
+    "skills": "survivalExpert-3"
+  },
+  {
+    "id": 237,
+    "rarity": 9,
+    "level": 4,
+    "priority": 11,
+    "name": "Hard Geology Jewel 4",
+    "skills": "geologist-3"
+  },
+  {
+    "id": 238,
+    "rarity": 9,
+    "level": 4,
+    "priority": 11,
+    "name": "Hard Tip Toe Jewel 4",
+    "skills": "stealth-3"
+  },
+  {
+    "id": 240,
+    "rarity": 9,
+    "level": 4,
+    "priority": 11,
+    "name": "Hard Specimen Jewel 4",
+    "skills": "entomologist-3"
+  },
+  {
+    "id": 244,
+    "rarity": 9,
+    "level": 4,
+    "priority": 11,
+    "name": "Hard Botany Jewel 4",
+    "skills": "botanist-4"
+  },
+  {
+    "id": 7812,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Bomber/Attack Jewel+ 4",
+    "skills": "bombardier-1;attackBoost-1"
+  },
+  {
+    "id": 7886,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Bomber/Physique Jewel+ 4",
+    "skills": "bombardier-1;constitution-1"
+  },
+  {
+    "id": 7819,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Bomber/Expert Jewel+ 4",
+    "skills": "bombardier-1;criticalEye-1"
+  },
+  {
+    "id": 7859,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Bomber/Evasion Jewel+ 4",
+    "skills": "bombardier-1;evadeWindow-1"
+  },
+  {
+    "id": 7896,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Bomber/Release Jewel+ 4",
+    "skills": "bombardier-1;freeElemAmmoUp-1"
+  },
+  {
+    "id": 7864,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Bomber/Handicraft Jewel+ 4",
+    "skills": "bombardier-1;handicraft-1"
+  },
+  {
+    "id": 6686,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Brace/Physique Jewel+ 4",
+    "skills": "flinchFree-1;constitution-1"
+  },
+  {
+    "id": 6642,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Brace/Protection Jewel+ 4",
+    "skills": "flinchFree-1;divineBlessing-1"
+  },
+  {
+    "id": 6659,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Brace/Evasion Jewel+ 4",
+    "skills": "flinchFree-1;evadeWindow-1"
+  },
+  {
+    "id": 6625,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Brace/Vitality Jewel+ 4",
+    "skills": "flinchFree-1;healthBoost-1"
+  },
+  {
+    "id": 6676,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Brace/Medicine Jewel+ 4",
+    "skills": "flinchFree-1;recoveryUp-1"
+  },
+  {
+    "id": 6648,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Brace/Maintenance Jewel+ 4",
+    "skills": "flinchFree-1;toolSpecialist-1"
+  },
+  {
+    "id": 9486,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Challenger/Physique Jewel+ 4",
+    "skills": "agitator-1;constitution-1"
+  },
+  {
+    "id": 9442,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Challenger/Protection Jewel+ 4",
+    "skills": "agitator-1;divineBlessing-1"
+  },
+  {
+    "id": 9459,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Challenger/Evasion Jewel+ 4",
+    "skills": "agitator-1;evadeWindow-1"
+  },
+  {
+    "id": 9425,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Challenger/Vitality Jewel+ 4",
+    "skills": "agitator-1;healthBoost-1"
+  },
+  {
+    "id": 9476,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Challenger/Medicine Jewel+ 4",
+    "skills": "agitator-1;recoveryUp-1"
+  },
+  {
+    "id": 9448,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Challenger/Maintenance Jewel+ 4",
+    "skills": "agitator-1;toolSpecialist-1"
+  },
+  {
+    "id": 5686,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Charger/Physique Jewel+ 4",
+    "skills": "focus-1;constitution-1"
+  },
+  {
+    "id": 5642,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Charger/Protection Jewel+ 4",
+    "skills": "focus-1;divineBlessing-1"
+  },
+  {
+    "id": 5659,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Charger/Evasion Jewel+ 4",
+    "skills": "focus-1;evadeWindow-1"
+  },
+  {
+    "id": 5625,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Charger/Vitality Jewel+ 4",
+    "skills": "focus-1;healthBoost-1"
+  },
+  {
+    "id": 5676,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Charger/Medicine Jewel+ 4",
+    "skills": "focus-1;recoveryUp-1"
+  },
+  {
+    "id": 5648,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Charger/Maintenance Jewel+ 4",
+    "skills": "focus-1;toolSpecialist-1"
+  },
+  {
+    "id": 3112,
+    "rarity": 9,
+    "level": 4,
+    "priority": 0,
+    "name": "Crisis/Attack Jewel+ 4",
+    "skills": "resuscitate-1;attackBoost-1"
+  },
+  {
+    "id": 3186,
+    "rarity": 9,
+    "level": 4,
+    "priority": 0,
+    "name": "Crisis/Physique Jewel+ 4",
+    "skills": "resuscitate-1;constitution-1"
+  },
+  {
+    "id": 3119,
+    "rarity": 9,
+    "level": 4,
+    "priority": 0,
+    "name": "Crisis/Expert Jewel+ 4",
+    "skills": "resuscitate-1;criticalEye-1"
+  },
+  {
+    "id": 3159,
+    "rarity": 9,
+    "level": 4,
+    "priority": 0,
+    "name": "Crisis/Evasion Jewel+ 4",
+    "skills": "resuscitate-1;evadeWindow-1"
+  },
+  {
+    "id": 3196,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Crisis/Release Jewel+ 4",
+    "skills": "resuscitate-1;freeElemAmmoUp-1"
+  },
+  {
+    "id": 3164,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Crisis/Handicraft Jewel+ 4",
+    "skills": "resuscitate-1;handicraft-1"
+  },
+  {
+    "id": 4986,
+    "rarity": 12,
+    "level": 4,
+    "priority": 0,
+    "name": "Critical/Physique Jewel+ 4",
+    "skills": "criticalBoost-1;constitution-1"
+  },
+  {
+    "id": 4942,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Critical/Protection Jewel+ 4",
+    "skills": "criticalBoost-1;divineBlessing-1"
+  },
+  {
+    "id": 4959,
+    "rarity": 12,
+    "level": 4,
+    "priority": 0,
+    "name": "Critical/Evasion Jewel+ 4",
+    "skills": "criticalBoost-1;evadeWindow-1"
+  },
+  {
+    "id": 4925,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Critical/Vitality Jewel+ 4",
+    "skills": "criticalBoost-1;healthBoost-1"
+  },
+  {
+    "id": 4976,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Critical/Medicine Jewel+ 4",
+    "skills": "criticalBoost-1;recoveryUp-1"
+  },
+  {
+    "id": 4948,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Critical/Maintenance Jewel+ 4",
+    "skills": "criticalBoost-1;toolSpecialist-1"
+  },
+  {
+    "id": 5786,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Destroyer/Physique Jewel+ 4",
+    "skills": "partbreaker-1;constitution-1"
+  },
+  {
+    "id": 5742,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Destroyer/Protection Jewel+ 4",
+    "skills": "partbreaker-1;divineBlessing-1"
+  },
+  {
+    "id": 5759,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Destroyer/Evasion Jewel+ 4",
+    "skills": "partbreaker-1;evadeWindow-1"
+  },
+  {
+    "id": 5725,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Destroyer/Vitality Jewel+ 4",
+    "skills": "partbreaker-1;healthBoost-1"
+  },
+  {
+    "id": 5776,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Destroyer/Medicine Jewel+ 4",
+    "skills": "partbreaker-1;recoveryUp-1"
+  },
+  {
+    "id": 5748,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Destroyer/Maintenance Jewel+ 4",
+    "skills": "partbreaker-1;toolSpecialist-1"
+  },
+  {
+    "id": 2812,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Drain/Attack Jewel+ 4",
+    "skills": "staminaThief-1;attackBoost-1"
+  },
+  {
+    "id": 2886,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Drain/Physique Jewel+ 4",
+    "skills": "staminaThief-1;constitution-1"
+  },
+  {
+    "id": 2819,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Drain/Expert Jewel+ 4",
+    "skills": "staminaThief-1;criticalEye-1"
+  },
+  {
+    "id": 2859,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Drain/Evasion Jewel+ 4",
+    "skills": "staminaThief-1;evadeWindow-1"
+  },
+  {
+    "id": 2896,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Drain/Release Jewel+ 4",
+    "skills": "staminaThief-1;freeElemAmmoUp-1"
+  },
+  {
+    "id": 2864,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Drain/Handicraft Jewel+ 4",
+    "skills": "staminaThief-1;handicraft-1"
+  },
+  {
+    "id": 9286,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Draw/Physique Jewel+ 4",
+    "skills": "criticalDraw-1;constitution-1"
+  },
+  {
+    "id": 9242,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Draw/Protection Jewel+ 4",
+    "skills": "criticalDraw-1;divineBlessing-1"
+  },
+  {
+    "id": 9259,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Draw/Evasion Jewel+ 4",
+    "skills": "criticalDraw-1;evadeWindow-1"
+  },
+  {
+    "id": 9225,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Draw/Vitality Jewel+ 4",
+    "skills": "criticalDraw-1;healthBoost-1"
+  },
+  {
+    "id": 9276,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Draw/Medicine Jewel+ 4",
+    "skills": "criticalDraw-1;recoveryUp-1"
+  },
+  {
+    "id": 9248,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Draw/Maintenance Jewel+ 4",
+    "skills": "criticalDraw-1;toolSpecialist-1"
+  },
+  {
+    "id": 6386,
+    "rarity": 12,
+    "level": 4,
+    "priority": 0,
+    "name": "Earplugs/Physique Jewel+ 4",
+    "skills": "earplugs-1;constitution-1"
+  },
+  {
+    "id": 6342,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Earplugs/Protection Jewel+ 4",
+    "skills": "earplugs-1;divineBlessing-1"
+  },
+  {
+    "id": 6359,
+    "rarity": 12,
+    "level": 4,
+    "priority": 0,
+    "name": "Earplugs/Evasion Jewel+ 4",
+    "skills": "earplugs-1;evadeWindow-1"
+  },
+  {
+    "id": 6325,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Earplugs/Vitality Jewel+ 4",
+    "skills": "earplugs-1;healthBoost-1"
+  },
+  {
+    "id": 6376,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Earplugs/Medicine Jewel+ 4",
+    "skills": "earplugs-1;recoveryUp-1"
+  },
+  {
+    "id": 6348,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Earplugs/Maintenance Jewel+ 4",
+    "skills": "earplugs-1;toolSpecialist-1"
+  },
+  {
+    "id": 9186,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Enhancer/Physique Jewel+ 4",
+    "skills": "powerProlonger-1;constitution-1"
+  },
+  {
+    "id": 9142,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Enhancer/Protection Jewel+ 4",
+    "skills": "powerProlonger-1;divineBlessing-1"
+  },
+  {
+    "id": 9159,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Enhancer/Evasion Jewel+ 4",
+    "skills": "powerProlonger-1;evadeWindow-1"
+  },
+  {
+    "id": 9125,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Enhancer/Vitality Jewel+ 4",
+    "skills": "powerProlonger-1;healthBoost-1"
+  },
+  {
+    "id": 9176,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Enhancer/Medicine Jewel+ 4",
+    "skills": "powerProlonger-1;recoveryUp-1"
+  },
+  {
+    "id": 9148,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Enhancer/Maintenance Jewel+ 4",
+    "skills": "powerProlonger-1;toolSpecialist-1"
+  },
+  {
+    "id": 9086,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Flawless/Physique Jewel+ 4",
+    "skills": "peakPerformance-1;constitution-1"
+  },
+  {
+    "id": 9042,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Flawless/Protection Jewel+ 4",
+    "skills": "peakPerformance-1;divineBlessing-1"
+  },
+  {
+    "id": 9059,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Flawless/Evasion Jewel+ 4",
+    "skills": "peakPerformance-1;evadeWindow-1"
+  },
+  {
+    "id": 9025,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Flawless/Vitality Jewel+ 4",
+    "skills": "peakPerformance-1;healthBoost-1"
+  },
+  {
+    "id": 9076,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Flawless/Medicine Jewel+ 4",
+    "skills": "peakPerformance-1;recoveryUp-1"
+  },
+  {
+    "id": 9048,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Flawless/Maintenance Jewel+ 4",
+    "skills": "peakPerformance-1;toolSpecialist-1"
+  },
+  {
+    "id": 5012,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Flight/Attack Jewel+ 4",
+    "skills": "airborne-1;attackBoost-1"
+  },
+  {
+    "id": 5086,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Flight/Physique Jewel+ 4",
+    "skills": "airborne-1;constitution-1"
+  },
+  {
+    "id": 5019,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Flight/Expert Jewel+ 4",
+    "skills": "airborne-1;criticalEye-1"
+  },
+  {
+    "id": 5059,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Flight/Evasion Jewel+ 4",
+    "skills": "airborne-1;evadeWindow-1"
+  },
+  {
+    "id": 5096,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Flight/Release Jewel+ 4",
+    "skills": "airborne-1;freeElemAmmoUp-1"
+  },
+  {
+    "id": 5064,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Flight/Handicraft Jewel+ 4",
+    "skills": "airborne-1;handicraft-1"
+  },
+  {
+    "id": 6086,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Footing/Physique Jewel+ 4",
+    "skills": "tremorResistance-1;constitution-1"
+  },
+  {
+    "id": 6042,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Footing/Protection Jewel+ 4",
+    "skills": "tremorResistance-1;divineBlessing-1"
+  },
+  {
+    "id": 6059,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Footing/Evasion Jewel+ 4",
+    "skills": "tremorResistance-1;evadeWindow-1"
+  },
+  {
+    "id": 6025,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Footing/Vitality Jewel+ 4",
+    "skills": "tremorResistance-1;healthBoost-1"
+  },
+  {
+    "id": 6076,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Footing/Medicine Jewel+ 4",
+    "skills": "tremorResistance-1;recoveryUp-1"
+  },
+  {
+    "id": 6048,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Footing/Maintenance Jewel+ 4",
+    "skills": "tremorResistance-1;toolSpecialist-1"
+  },
+  {
+    "id": 3912,
+    "rarity": 9,
+    "level": 4,
+    "priority": 0,
+    "name": "Fortitude/Attack Jewel+ 4",
+    "skills": "fortify-1;attackBoost-1"
+  },
+  {
+    "id": 3986,
+    "rarity": 9,
+    "level": 4,
+    "priority": 0,
+    "name": "Fortitude/Physique Jewel+ 4",
+    "skills": "fortify-1;constitution-1"
+  },
+  {
+    "id": 3919,
+    "rarity": 9,
+    "level": 4,
+    "priority": 0,
+    "name": "Fortitude/Expert Jewel+ 4",
+    "skills": "fortify-1;criticalEye-1"
+  },
+  {
+    "id": 3959,
+    "rarity": 9,
+    "level": 4,
+    "priority": 0,
+    "name": "Fortitude/Evasion Jewel+ 4",
+    "skills": "fortify-1;evadeWindow-1"
+  },
+  {
+    "id": 3996,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Fortitude/Release Jewel+ 4",
+    "skills": "fortify-1;freeElemAmmoUp-1"
+  },
+  {
+    "id": 3964,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Fortitude/Handicraft Jewel+ 4",
+    "skills": "fortify-1;handicraft-1"
+  },
+  {
+    "id": 2912,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Friendship/Attack Jewel+ 4",
+    "skills": "wideRange-1;attackBoost-1"
+  },
+  {
+    "id": 2986,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Friendship/Physique Jewel+ 4",
+    "skills": "wideRange-1;constitution-1"
+  },
+  {
+    "id": 2919,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Friendship/Expert Jewel+ 4",
+    "skills": "wideRange-1;criticalEye-1"
+  },
+  {
+    "id": 2959,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Friendship/Evasion Jewel+ 4",
+    "skills": "wideRange-1;evadeWindow-1"
+  },
+  {
+    "id": 2996,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Friendship/Release Jewel+ 4",
+    "skills": "wideRange-1;freeElemAmmoUp-1"
+  },
+  {
+    "id": 2964,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Friendship/Handicraft Jewel+ 4",
+    "skills": "wideRange-1;handicraft-1"
+  },
+  {
+    "id": 6912,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Fungiform/Attack Jewel+ 4",
+    "skills": "mushroomancer-1;attackBoost-1"
+  },
+  {
+    "id": 6986,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Fungiform/Physique Jewel+ 4",
+    "skills": "mushroomancer-1;constitution-1"
+  },
+  {
+    "id": 6919,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Fungiform/Expert Jewel+ 4",
+    "skills": "mushroomancer-1;criticalEye-1"
+  },
+  {
+    "id": 6959,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Fungiform/Evasion Jewel+ 4",
+    "skills": "mushroomancer-1;evadeWindow-1"
+  },
+  {
+    "id": 6996,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Fungiform/Release Jewel+ 4",
+    "skills": "mushroomancer-1;freeElemAmmoUp-1"
+  },
+  {
+    "id": 6964,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Fungiform/Handicraft Jewel+ 4",
+    "skills": "mushroomancer-1;handicraft-1"
+  },
+  {
+    "id": 8986,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Furor/Physique Jewel+ 4",
+    "skills": "resentment-1;constitution-1"
+  },
+  {
+    "id": 8942,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Furor/Protection Jewel+ 4",
+    "skills": "resentment-1;divineBlessing-1"
+  },
+  {
+    "id": 8959,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Furor/Evasion Jewel+ 4",
+    "skills": "resentment-1;evadeWindow-1"
+  },
+  {
+    "id": 8925,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Furor/Vitality Jewel+ 4",
+    "skills": "resentment-1;healthBoost-1"
+  },
+  {
+    "id": 8976,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Furor/Medicine Jewel+ 4",
+    "skills": "resentment-1;recoveryUp-1"
+  },
+  {
+    "id": 8948,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Furor/Maintenance Jewel+ 4",
+    "skills": "resentment-1;toolSpecialist-1"
+  },
+  {
+    "id": 2312,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Gobbler/Attack Jewel+ 4",
+    "skills": "speedEating-1;attackBoost-1"
+  },
+  {
+    "id": 2386,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Gobbler/Physique Jewel+ 4",
+    "skills": "speedEating-1;constitution-1"
+  },
+  {
+    "id": 2319,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Gobbler/Expert Jewel+ 4",
+    "skills": "speedEating-1;criticalEye-1"
+  },
+  {
+    "id": 2359,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Gobbler/Evasion Jewel+ 4",
+    "skills": "speedEating-1;evadeWindow-1"
+  },
+  {
+    "id": 2396,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Gobbler/Release Jewel+ 4",
+    "skills": "speedEating-1;freeElemAmmoUp-1"
+  },
+  {
+    "id": 2364,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Gobbler/Handicraft Jewel+ 4",
+    "skills": "speedEating-1;handicraft-1"
+  },
+  {
+    "id": 2612,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Grinder/Attack Jewel+ 4",
+    "skills": "speedSharpening-1;attackBoost-1"
+  },
+  {
+    "id": 2686,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Grinder/Physique Jewel+ 4",
+    "skills": "speedSharpening-1;constitution-1"
+  },
+  {
+    "id": 2619,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Grinder/Expert Jewel+ 4",
+    "skills": "speedSharpening-1;criticalEye-1"
+  },
+  {
+    "id": 2659,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Grinder/Evasion Jewel+ 4",
+    "skills": "speedSharpening-1;evadeWindow-1"
+  },
+  {
+    "id": 2696,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Grinder/Release Jewel+ 4",
+    "skills": "speedSharpening-1;freeElemAmmoUp-1"
+  },
+  {
+    "id": 2664,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Grinder/Handicraft Jewel+ 4",
+    "skills": "speedSharpening-1;handicraft-1"
+  },
+  {
+    "id": 9312,
+    "rarity": 9,
+    "level": 4,
+    "priority": 0,
+    "name": "Guardian/Attack Jewel+ 4",
+    "skills": "offensiveGuard-1;attackBoost-1"
+  },
+  {
+    "id": 9386,
+    "rarity": 9,
+    "level": 4,
+    "priority": 0,
+    "name": "Guardian/Physique Jewel+ 4",
+    "skills": "offensiveGuard-1;constitution-1"
+  },
+  {
+    "id": 9319,
+    "rarity": 9,
+    "level": 4,
+    "priority": 0,
+    "name": "Guardian/Expert Jewel+ 4",
+    "skills": "offensiveGuard-1;criticalEye-1"
+  },
+  {
+    "id": 9359,
+    "rarity": 9,
+    "level": 4,
+    "priority": 0,
+    "name": "Guardian/Evasion Jewel+ 4",
+    "skills": "offensiveGuard-1;evadeWindow-1"
+  },
+  {
+    "id": 9396,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Guardian/Release Jewel+ 4",
+    "skills": "offensiveGuard-1;freeElemAmmoUp-1"
+  },
+  {
+    "id": 9364,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Guardian/Handicraft Jewel+ 4",
+    "skills": "offensiveGuard-1;handicraft-1"
+  },
+  {
+    "id": 6486,
+    "rarity": 12,
+    "level": 4,
+    "priority": 0,
+    "name": "Handicraft/Physique Jewel+ 4",
+    "skills": "handicraft-1;constitution-1"
+  },
+  {
+    "id": 6442,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Handicraft/Protection Jewel+ 4",
+    "skills": "handicraft-1;divineBlessing-1"
+  },
+  {
+    "id": 6459,
+    "rarity": 12,
+    "level": 4,
+    "priority": 0,
+    "name": "Handicraft/Evasion Jewel+ 4",
+    "skills": "handicraft-1;evadeWindow-1"
+  },
+  {
+    "id": 6425,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Handicraft/Vitality Jewel+ 4",
+    "skills": "handicraft-1;healthBoost-1"
+  },
+  {
+    "id": 6476,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Handicraft/Medicine Jewel+ 4",
+    "skills": "handicraft-1;recoveryUp-1"
+  },
+  {
+    "id": 6448,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Handicraft/Maintenance Jewel+ 4",
+    "skills": "handicraft-1;toolSpecialist-1"
+  },
+  {
+    "id": 7712,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Ironwall/Attack Jewel+ 4",
+    "skills": "guard-1;attackBoost-1"
+  },
+  {
+    "id": 7786,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Ironwall/Physique Jewel+ 4",
+    "skills": "guard-1;constitution-1"
+  },
+  {
+    "id": 7719,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Ironwall/Expert Jewel+ 4",
+    "skills": "guard-1;criticalEye-1"
+  },
+  {
+    "id": 7759,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Ironwall/Evasion Jewel+ 4",
+    "skills": "guard-1;evadeWindow-1"
+  },
+  {
+    "id": 7796,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Ironwall/Release Jewel+ 4",
+    "skills": "guard-1;freeElemAmmoUp-1"
+  },
+  {
+    "id": 7764,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Ironwall/Handicraft Jewel+ 4",
+    "skills": "guard-1;handicraft-1"
+  },
+  {
+    "id": 8812,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Jumping/Attack Jewel+ 4",
+    "skills": "evadeExtender-1;attackBoost-1"
+  },
+  {
+    "id": 8886,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Jumping/Physique Jewel+ 4",
+    "skills": "evadeExtender-1;constitution-1"
+  },
+  {
+    "id": 8819,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Jumping/Expert Jewel+ 4",
+    "skills": "evadeExtender-1;criticalEye-1"
+  },
+  {
+    "id": 8859,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Jumping/Evasion Jewel+ 4",
+    "skills": "evadeExtender-1;evadeWindow-1"
+  },
+  {
+    "id": 8896,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Jumping/Release Jewel+ 4",
+    "skills": "evadeExtender-1;freeElemAmmoUp-1"
+  },
+  {
+    "id": 8864,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Jumping/Handicraft Jewel+ 4",
+    "skills": "evadeExtender-1;handicraft-1"
+  },
+  {
+    "id": 5386,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "KO/Physique Jewel+ 4",
+    "skills": "slugger-1;constitution-1"
+  },
+  {
+    "id": 5342,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "KO/Protection Jewel+ 4",
+    "skills": "slugger-1;divineBlessing-1"
+  },
+  {
+    "id": 5359,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "KO/Evasion Jewel+ 4",
+    "skills": "slugger-1;evadeWindow-1"
+  },
+  {
+    "id": 5325,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "KO/Vitality Jewel+ 4",
+    "skills": "slugger-1;healthBoost-1"
+  },
+  {
+    "id": 5376,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "KO/Medicine Jewel+ 4",
+    "skills": "slugger-1;recoveryUp-1"
+  },
+  {
+    "id": 5348,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "KO/Maintenance Jewel+ 4",
+    "skills": "slugger-1;toolSpecialist-1"
+  },
+  {
+    "id": 5486,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Mighty/Physique Jewel+ 4",
+    "skills": "maximumMight-1;constitution-1"
+  },
+  {
+    "id": 5442,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Mighty/Protection Jewel+ 4",
+    "skills": "maximumMight-1;divineBlessing-1"
+  },
+  {
+    "id": 5459,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Mighty/Evasion Jewel+ 4",
+    "skills": "maximumMight-1;evadeWindow-1"
+  },
+  {
+    "id": 5425,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Mighty/Vitality Jewel+ 4",
+    "skills": "maximumMight-1;healthBoost-1"
+  },
+  {
+    "id": 5476,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Mighty/Medicine Jewel+ 4",
+    "skills": "maximumMight-1;recoveryUp-1"
+  },
+  {
+    "id": 5448,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Mighty/Maintenance Jewel+ 4",
+    "skills": "maximumMight-1;toolSpecialist-1"
+  },
+  {
+    "id": 10086,
+    "rarity": 12,
+    "level": 4,
+    "priority": 0,
+    "name": "Phoenix/Physique Jewel+ 4",
+    "skills": "coalescence-1;constitution-1"
+  },
+  {
+    "id": 10042,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Phoenix/Protection Jewel+ 4",
+    "skills": "coalescence-1;divineBlessing-1"
+  },
+  {
+    "id": 10059,
+    "rarity": 12,
+    "level": 4,
+    "priority": 0,
+    "name": "Phoenix/Evasion Jewel+ 4",
+    "skills": "coalescence-1;evadeWindow-1"
+  },
+  {
+    "id": 10025,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Phoenix/Vitality Jewel+ 4",
+    "skills": "coalescence-1;healthBoost-1"
+  },
+  {
+    "id": 10076,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Phoenix/Medicine Jewel+ 4",
+    "skills": "coalescence-1;recoveryUp-1"
+  },
+  {
+    "id": 10048,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Phoenix/Maintenance Jewel+ 4",
+    "skills": "coalescence-1;toolSpecialist-1"
+  },
+  {
+    "id": 6286,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Potential/Physique Jewel+ 4",
+    "skills": "heroics-1;constitution-1"
+  },
+  {
+    "id": 6242,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Potential/Protection Jewel+ 4",
+    "skills": "heroics-1;divineBlessing-1"
+  },
+  {
+    "id": 6259,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Potential/Evasion Jewel+ 4",
+    "skills": "heroics-1;evadeWindow-1"
+  },
+  {
+    "id": 6225,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Potential/Vitality Jewel+ 4",
+    "skills": "heroics-1;healthBoost-1"
+  },
+  {
+    "id": 6276,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Potential/Medicine Jewel+ 4",
+    "skills": "heroics-1;recoveryUp-1"
+  },
+  {
+    "id": 6248,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Potential/Maintenance Jewel+ 4",
+    "skills": "heroics-1;toolSpecialist-1"
+  },
+  {
+    "id": 8512,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Refresh/Attack Jewel+ 4",
+    "skills": "staminaSurge-1;attackBoost-1"
+  },
+  {
+    "id": 8586,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Refresh/Physique Jewel+ 4",
+    "skills": "staminaSurge-1;constitution-1"
+  },
+  {
+    "id": 8519,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Refresh/Expert Jewel+ 4",
+    "skills": "staminaSurge-1;criticalEye-1"
+  },
+  {
+    "id": 8559,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Refresh/Evasion Jewel+ 4",
+    "skills": "staminaSurge-1;evadeWindow-1"
+  },
+  {
+    "id": 8596,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Refresh/Release Jewel+ 4",
+    "skills": "staminaSurge-1;freeElemAmmoUp-1"
+  },
+  {
+    "id": 8564,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Refresh/Handicraft Jewel+ 4",
+    "skills": "staminaSurge-1;handicraft-1"
+  },
+  {
+    "id": 9686,
+    "rarity": 12,
+    "level": 4,
+    "priority": 0,
+    "name": "Release/Physique Jewel+ 4",
+    "skills": "freeElemAmmoUp-1;constitution-1"
+  },
+  {
+    "id": 9642,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Release/Protection Jewel+ 4",
+    "skills": "freeElemAmmoUp-1;divineBlessing-1"
+  },
+  {
+    "id": 9659,
+    "rarity": 12,
+    "level": 4,
+    "priority": 0,
+    "name": "Release/Evasion Jewel+ 4",
+    "skills": "freeElemAmmoUp-1;evadeWindow-1"
+  },
+  {
+    "id": 9625,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Release/Vitality Jewel+ 4",
+    "skills": "freeElemAmmoUp-1;healthBoost-1"
+  },
+  {
+    "id": 9676,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Release/Medicine Jewel+ 4",
+    "skills": "freeElemAmmoUp-1;recoveryUp-1"
+  },
+  {
+    "id": 9648,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Release/Maintenance Jewel+ 4",
+    "skills": "freeElemAmmoUp-1;toolSpecialist-1"
+  },
+  {
+    "id": 2412,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Resistor/Attack Jewel+ 4",
+    "skills": "blightResistance-1;attackBoost-1"
+  },
+  {
+    "id": 2486,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Resistor/Physique Jewel+ 4",
+    "skills": "blightResistance-1;constitution-1"
+  },
+  {
+    "id": 2419,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Resistor/Expert Jewel+ 4",
+    "skills": "blightResistance-1;criticalEye-1"
+  },
+  {
+    "id": 2459,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Resistor/Evasion Jewel+ 4",
+    "skills": "blightResistance-1;evadeWindow-1"
+  },
+  {
+    "id": 2496,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Resistor/Release Jewel+ 4",
+    "skills": "blightResistance-1;freeElemAmmoUp-1"
+  },
+  {
+    "id": 2464,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Resistor/Handicraft Jewel+ 4",
+    "skills": "blightResistance-1;handicraft-1"
+  },
+  {
+    "id": 4612,
+    "rarity": 9,
+    "level": 4,
+    "priority": 0,
+    "name": "Satiated/Attack Jewel+ 4",
+    "skills": "freeMeal-1;attackBoost-1"
+  },
+  {
+    "id": 4686,
+    "rarity": 9,
+    "level": 4,
+    "priority": 0,
+    "name": "Satiated/Physique Jewel+ 4",
+    "skills": "freeMeal-1;constitution-1"
+  },
+  {
+    "id": 4619,
+    "rarity": 9,
+    "level": 4,
+    "priority": 0,
+    "name": "Satiated/Expert Jewel+ 4",
+    "skills": "freeMeal-1;criticalEye-1"
+  },
+  {
+    "id": 4659,
+    "rarity": 9,
+    "level": 4,
+    "priority": 0,
+    "name": "Satiated/Evasion Jewel+ 4",
+    "skills": "freeMeal-1;evadeWindow-1"
+  },
+  {
+    "id": 4696,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Satiated/Release Jewel+ 4",
+    "skills": "freeMeal-1;freeElemAmmoUp-1"
+  },
+  {
+    "id": 4664,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Satiated/Handicraft Jewel+ 4",
+    "skills": "freeMeal-1;handicraft-1"
+  },
+  {
+    "id": 2012,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Sheath/Attack Jewel+ 4",
+    "skills": "quickSheath-1;attackBoost-1"
+  },
+  {
+    "id": 2086,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Sheath/Physique Jewel+ 4",
+    "skills": "quickSheath-1;constitution-1"
+  },
+  {
+    "id": 2019,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Sheath/Expert Jewel+ 4",
+    "skills": "quickSheath-1;criticalEye-1"
+  },
+  {
+    "id": 2059,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Sheath/Evasion Jewel+ 4",
+    "skills": "quickSheath-1;evadeWindow-1"
+  },
+  {
+    "id": 2096,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Sheath/Release Jewel+ 4",
+    "skills": "quickSheath-1;freeElemAmmoUp-1"
+  },
+  {
+    "id": 2064,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Sheath/Handicraft Jewel+ 4",
+    "skills": "quickSheath-1;handicraft-1"
+  },
+  {
+    "id": 5112,
+    "rarity": 9,
+    "level": 4,
+    "priority": 0,
+    "name": "Slider/Attack Jewel+ 4",
+    "skills": "affinitySliding-1;attackBoost-1"
+  },
+  {
+    "id": 5186,
+    "rarity": 9,
+    "level": 4,
+    "priority": 0,
+    "name": "Slider/Physique Jewel+ 4",
+    "skills": "affinitySliding-1;constitution-1"
+  },
+  {
+    "id": 5119,
+    "rarity": 9,
+    "level": 4,
+    "priority": 0,
+    "name": "Slider/Expert Jewel+ 4",
+    "skills": "affinitySliding-1;criticalEye-1"
+  },
+  {
+    "id": 5159,
+    "rarity": 9,
+    "level": 4,
+    "priority": 0,
+    "name": "Slider/Evasion Jewel+ 4",
+    "skills": "affinitySliding-1;evadeWindow-1"
+  },
+  {
+    "id": 5196,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Slider/Release Jewel+ 4",
+    "skills": "affinitySliding-1;freeElemAmmoUp-1"
+  },
+  {
+    "id": 5164,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Slider/Handicraft Jewel+ 4",
+    "skills": "affinitySliding-1;handicraft-1"
+  },
+  {
+    "id": 8212,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Sprinter/Attack Jewel+ 4",
+    "skills": "marathonRunner-1;attackBoost-1"
+  },
+  {
+    "id": 8286,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Sprinter/Physique Jewel+ 4",
+    "skills": "marathonRunner-1;constitution-1"
+  },
+  {
+    "id": 8219,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Sprinter/Expert Jewel+ 4",
+    "skills": "marathonRunner-1;criticalEye-1"
+  },
+  {
+    "id": 8259,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Sprinter/Evasion Jewel+ 4",
+    "skills": "marathonRunner-1;evadeWindow-1"
+  },
+  {
+    "id": 8296,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Sprinter/Release Jewel+ 4",
+    "skills": "marathonRunner-1;freeElemAmmoUp-1"
+  },
+  {
+    "id": 8264,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Sprinter/Handicraft Jewel+ 4",
+    "skills": "marathonRunner-1;handicraft-1"
+  },
+  {
+    "id": 2112,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Stonethrower/Attack Jewel+ 4",
+    "skills": "slingerCapacity-1;attackBoost-1"
+  },
+  {
+    "id": 2186,
+    "rarity": 9,
+    "level": 4,
+    "priority": 0,
+    "name": "Stonethrower/Physique Jewel+ 4",
+    "skills": "slingerCapacity-1;constitution-1"
+  },
+  {
+    "id": 2119,
+    "rarity": 9,
+    "level": 4,
+    "priority": 0,
+    "name": "Stonethrower/Expert Jewel+ 4",
+    "skills": "slingerCapacity-1;criticalEye-1"
+  },
+  {
+    "id": 2159,
+    "rarity": 9,
+    "level": 4,
+    "priority": 0,
+    "name": "Stonethrower/Evasion Jewel+ 4",
+    "skills": "slingerCapacity-1;evadeWindow-1"
+  },
+  {
+    "id": 2196,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Stonethrower/Release Jewel+ 4",
+    "skills": "slingerCapacity-1;freeElemAmmoUp-1"
+  },
+  {
+    "id": 2164,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Stonethrower/Handicraft Jewel+ 4",
+    "skills": "slingerCapacity-1;handicraft-1"
+  },
+  {
+    "id": 5286,
+    "rarity": 12,
+    "level": 4,
+    "priority": 0,
+    "name": "Tenderizer/Physique Jewel+ 4",
+    "skills": "weaknessExploit-1;constitution-1"
+  },
+  {
+    "id": 5242,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Tenderizer/Protection Jewel+ 4",
+    "skills": "weaknessExploit-1;divineBlessing-1"
+  },
+  {
+    "id": 5259,
+    "rarity": 12,
+    "level": 4,
+    "priority": 0,
+    "name": "Tenderizer/Evasion Jewel+ 4",
+    "skills": "weaknessExploit-1;evadeWindow-1"
+  },
+  {
+    "id": 5225,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Tenderizer/Vitality Jewel+ 4",
+    "skills": "weaknessExploit-1;healthBoost-1"
+  },
+  {
+    "id": 5276,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Tenderizer/Medicine Jewel+ 4",
+    "skills": "weaknessExploit-1;recoveryUp-1"
+  },
+  {
+    "id": 5248,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Tenderizer/Maintenance Jewel+ 4",
+    "skills": "weaknessExploit-1;toolSpecialist-1"
+  },
+  {
+    "id": 8186,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Throttle/Physique Jewel+ 4",
+    "skills": "latentPower-1;constitution-1"
+  },
+  {
+    "id": 8142,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Throttle/Protection Jewel+ 4",
+    "skills": "latentPower-1;divineBlessing-1"
+  },
+  {
+    "id": 8159,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Throttle/Evasion Jewel+ 4",
+    "skills": "latentPower-1;evadeWindow-1"
+  },
+  {
+    "id": 8125,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Throttle/Vitality Jewel+ 4",
+    "skills": "latentPower-1;healthBoost-1"
+  },
+  {
+    "id": 8176,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Throttle/Medicine Jewel+ 4",
+    "skills": "latentPower-1;recoveryUp-1"
+  },
+  {
+    "id": 8148,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Throttle/Maintenance Jewel+ 4",
+    "skills": "latentPower-1;toolSpecialist-1"
+  },
+  {
+    "id": 6186,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Wind Resist/Physique Jewel+ 4",
+    "skills": "windproof-1;constitution-1"
+  },
+  {
+    "id": 6142,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Wind Resist/Protection Jewel+ 4",
+    "skills": "windproof-1;divineBlessing-1"
+  },
+  {
+    "id": 6159,
+    "rarity": 11,
+    "level": 4,
+    "priority": 0,
+    "name": "Wind Resist/Evasion Jewel+ 4",
+    "skills": "windproof-1;evadeWindow-1"
+  },
+  {
+    "id": 6125,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Wind Resist/Vitality Jewel+ 4",
+    "skills": "windproof-1;healthBoost-1"
+  },
+  {
+    "id": 6176,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Wind Resist/Medicine Jewel+ 4",
+    "skills": "windproof-1;recoveryUp-1"
+  },
+  {
+    "id": 6148,
+    "rarity": 10,
+    "level": 4,
+    "priority": 0,
+    "name": "Wind Resist/Maintenance Jewel+ 4",
+    "skills": "windproof-1;toolSpecialist-1"
+  },
+  {
+    "id": 2275,
+    "rarity": 11,
+    "level": 3,
+    "priority": 0,
+    "name": "Shaver Jewel 3",
+    "skills": "clutchClawBoost-1"
+  }
+]
