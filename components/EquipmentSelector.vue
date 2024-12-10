@@ -11,87 +11,41 @@ const selectedEquipment = ref<Build | null>(null);
 const skillTally = computed(() => selectedEquipment.value ? getBuildSkillTally(selectedEquipment.value) : null);
 
 const allEquipment: EqPiece[] = await getAllEquipment();
-const equipmentWithMatchingSkills = computed((): EqPiece[] => {
-  return allEquipment.filter(eqPiece => {
-    return props.selectedSkills.some(selectedSkill => {
-      return selectedSkill.id in eqPiece.skills;
-    });
-  });
-});
+let equipmentByType = computed(() => {
+  
+  const eqByTypeMap = new Map();  
+  allEquipment.forEach(eqPiece => {
 
-let allHelmets = ref<Object[] | null>(null);
-let allChests = ref<Object[] | null>(null);
-let allArms = ref<Object[] | null>(null);
-let allWaists = ref<Object[] | null>(null);
-let allLegs = ref<Object[] | null>(null);
+    const eqId = eqPiece.id;
+    const eqType = eqPiece.itemType;
+    const eqSkillMap = new Map();
+    Object.entries(eqPiece.skills).forEach(([skillId, skillLevel]) => {
+      eqSkillMap.set(skillId, skillLevel);
+    });
+    
+    if (eqByTypeMap.has(eqType)) {
+      eqByTypeMap.get(eqType)?.push({ eqId, skills: eqSkillMap });
+    } else {
+      eqByTypeMap.set(eqType, [{ eqId, skills: eqSkillMap }]);
+    }
+  });
+
+  return eqByTypeMap;
+});
 
 let validBuilds = ref<Build[] | null>(null);
 // let currentBuild = computed(() => validBuilds.value ? validBuilds.value[0] : null);
 // let skillTally = computed(() => currentBuild ? getBuildSkillTally(currentBuild) : null);
 
 const calculateEquipment = () => {
+ 
+  console.log('selectedSkills:', props.selectedSkills);
+  console.log('equipmentByType:', equipmentByType.value);
 
-  console.log(
-    "Calculating Equipment from " + 
-    equipmentWithMatchingSkills.value.length + 
-    " potential Pieces."
-  );
+  validBuilds.value = getValidBuilds(props.selectedSkills, equipmentByType.value);
+  selectedEquipment.value = validBuilds.value ? validBuilds.value[0] : null;
 
-  allHelmets.value = equipmentWithMatchingSkills.value.filter(
-    eqPiece => eqPiece.itemType === "Head"
-  );
-  allChests.value = equipmentWithMatchingSkills.value.filter(
-    eqPiece => eqPiece.itemType === "Chest"
-  );
-  allArms.value = equipmentWithMatchingSkills.value.filter(
-    eqPiece => eqPiece.itemType === "Arms"
-  );
-  allWaists.value = equipmentWithMatchingSkills.value.filter(
-    eqPiece => eqPiece.itemType === "Waist"
-  );
-  allLegs.value = equipmentWithMatchingSkills.value.filter(
-    eqPiece => eqPiece.itemType === "Legs"
-  );
-
-  validBuilds.value = [];
-
-  allHelmets.value.forEach(helmet => {
-    allChests.value.forEach(chest => {
-      allArms.value.forEach(arms => {
-        allWaists.value.forEach(waist => {
-          allLegs.value.forEach(legs => {
-
-            const build: Build = {
-              weapon: null,
-              helmet: helmet,
-              chest: chest,
-              arms: arms,
-              waist: waist,
-              legs: legs
-            };
-
-            let skillTally = getBuildSkillTally(build);
-
-            if (props.selectedSkills.every(skill => {
-
-              let targetLevel = skill.targetLevel || 0;
-              let currentLevel = skillTally[skill.id] || 0;
-
-              return currentLevel >= targetLevel;
-
-            })) {
-              validBuilds.value.push(build);
-            }
-
-            selectedEquipment.value = validBuilds.value[0];
-
-          });
-        });
-      });
-    });
-  });
-
-  console.log("Found " + validBuilds.value.length + " valid builds.");
+  console.log('validBuilds:', validBuilds.value);
 
 };
 
@@ -144,6 +98,16 @@ const calculateEquipment = () => {
     <UButton label="+" @click="allEqIndex++" />
     <UButton label="-" @click="allEqIndex--" />
     <pre v-if="allEquipment">allEquipment[{{ allEqIndex }}]: {{ allEquipment[allEqIndex] }}</pre>
+    <UDivider />
+    <div>
+      <p>Equipment by Type:</p>
+      <!-- <pre>{{ Object.fromEntries(equipmentByType) }}</pre> -->
+      <pre>equipmentByType['Head']: {{ equipmentByType.get('Head')[0] }}</pre>
+      <pre>equipmentByType['Chest']: {{ equipmentByType.get('Chest')[0] }}</pre>
+      <pre>equipmentByType['Arms']: {{ equipmentByType.get('Arms')[0] }}</pre>
+      <pre>equipmentByType['Waist']: {{ equipmentByType.get('Waist')[0] }}</pre>
+      <pre>equipmentByType['Legs']: {{ equipmentByType.get('Legs')[0] }}</pre>
+    </div>
   </div>
   <!-- !Debug -->
 
