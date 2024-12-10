@@ -32,30 +32,148 @@ let validBuilds = ref<Build[] | null>(null);
 const calculateEquipment = () => {
 
   console.log(
-    "Calculating Equipment from " + 
-    equipmentWithMatchingSkills.value.length + 
+    "Calculating Equipment from " +
+    equipmentWithMatchingSkills.value.length +
     " potential Pieces."
   );
 
   allHelmets.value = equipmentWithMatchingSkills.value.filter(
     eqPiece => eqPiece.itemType === "Head"
-  );
+  ).map(helmet => {
+    const build: Build = {
+      weapon: null,
+      helmet: helmet,
+      chest: null,
+      arms: null,
+      waist: null,
+      legs: null
+    };
+    let skillTally = getBuildSkillTally(build);
+    helmet.skills = skillTally;
+    return helmet;
+  });
   allChests.value = equipmentWithMatchingSkills.value.filter(
     eqPiece => eqPiece.itemType === "Chest"
-  );
+  ).map(chest => {
+    const build: Build = {
+      weapon: null,
+      helmet: null,
+      chest: chest,
+      arms: null,
+      waist: null,
+      legs: null
+    };
+    let skillTally = getBuildSkillTally(build);
+    chest.skills = skillTally;
+    return chest;
+  });
   allArms.value = equipmentWithMatchingSkills.value.filter(
     eqPiece => eqPiece.itemType === "Arms"
-  );
+  ).map(arms => {
+    const build: Build = {
+      weapon: null,
+      helmet: null,
+      chest: null,
+      arms: arms,
+      waist: null,
+      legs: null
+    };
+    let skillTally = getBuildSkillTally(build);
+    arms.skills = skillTally;
+    return arms;
+  });
   allWaists.value = equipmentWithMatchingSkills.value.filter(
     eqPiece => eqPiece.itemType === "Waist"
-  );
+  ).map(waist => {
+    const build: Build = {
+      weapon: null,
+      helmet: null,
+      chest: null,
+      arms: null,
+      waist: waist,
+      legs: null
+    };
+    let skillTally = getBuildSkillTally(build);
+    waist.skills = skillTally;
+    return waist;
+  });
   allLegs.value = equipmentWithMatchingSkills.value.filter(
     eqPiece => eqPiece.itemType === "Legs"
-  );
+  ).map(legs => {
+    const build: Build = {
+      weapon: null,
+      helmet: null,
+      chest: null,
+      arms: null,
+      waist: null,
+      legs: legs
+    };
+    let skillTally = getBuildSkillTally(build);
+    legs.skills = skillTally;
+    return legs;
+  });
 
   validBuilds.value = [];
 
-  allHelmets.value.forEach(helmet => {
+  // allHelmets -> allTargetSkillLevelsOfHelmets
+  let helmetTargetSkills = allHelmets.value.map(helmet => helmet.skills[props.selectedSkills[0].id]);
+  let chestTargetSkills = allChests.value.map(chest => chest.skills[props.selectedSkills[0].id]);
+  let armsTargetSkills = allArms.value.map(arms => arms.skills[props.selectedSkills[0].id]);
+  let waistTargetSkills = allWaists.value.map(waist => waist.skills[props.selectedSkills[0].id]);
+  let legsTargetSkills = allLegs.value.map(legs => legs.skills[props.selectedSkills[0].id]);
+  
+  let validCombinations = [];
+  let testedCombinations = 0;
+  let targetLevel = props.selectedSkills[0].targetLevel;
+  
+  helmetTargetSkills.forEach(helmet => {
+    chestTargetSkills.forEach(chest => {
+      armsTargetSkills.forEach(arms => {
+        waistTargetSkills.forEach(waist => {
+          legsTargetSkills.forEach(legs => {
+            testedCombinations++;
+            if (helmet + chest + arms + waist + legs >= targetLevel) {
+              validCombinations.push({
+                helmet: helmet,
+                chest: chest,
+                arms: arms,
+                waist: waist,
+                legs: legs
+              });
+            }
+          })
+        })
+      })
+    })
+  })
+
+  console.log("Tested " + testedCombinations + " combinations.");
+
+  if (validCombinations.length > 0) {
+    validCombinations.forEach(combination => {
+      let helmet = allHelmets.value.find(h => h.skills[props.selectedSkills[0].id] === combination.helmet);
+    let chest = allChests.value.find(c => c.skills[props.selectedSkills[0].id] === combination.chest);
+    let arms = allArms.value.find(a => a.skills[props.selectedSkills[0].id] === combination.arms);
+    let waist = allWaists.value.find(w => w.skills[props.selectedSkills[0].id] === combination.waist);
+    let legs = allLegs.value.find(l => l.skills[props.selectedSkills[0].id] === combination.legs);
+    const build: Build = {
+      weapon: null,
+      helmet: helmet,
+      chest: chest,
+      arms: arms,
+      waist: waist,
+      legs: legs
+    };
+    validBuilds.value.push(build);
+    });
+    
+    selectedEquipment.value = validBuilds.value[0];
+  } else {
+    console.log("No valid combinations found.");
+  }
+
+
+  /* allHelmets.value.forEach(helmet => {
     allChests.value.forEach(chest => {
       allArms.value.forEach(arms => {
         allWaists.value.forEach(waist => {
@@ -89,7 +207,7 @@ const calculateEquipment = () => {
         });
       });
     });
-  });
+  }); */
 
   console.log("Found " + validBuilds.value.length + " valid builds.");
 
@@ -148,4 +266,3 @@ const calculateEquipment = () => {
   <!-- !Debug -->
 
 </template>
-      
