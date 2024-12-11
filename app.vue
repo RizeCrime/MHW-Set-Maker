@@ -6,13 +6,19 @@ const selectedSkills = ref<Object[]>([]);
 const selectedSkillsLength = computed(() => { 
   return selectedSkills.value ? selectedSkills.value.length : 0 
 });
-const skillModalOpen = ref<boolean>(true);
+const skillModalOpen = ref<boolean>(false);
 
 </script>
 
 <template>
   <UContainer class="py-4 grid grid-cols-5 gap-4" style="width: 100vw; height: 100vh;">
     <div class="flex flex-col gap-4 col-span-5">
+
+      <div v-if="debug">
+        <h1>Tests</h1>
+        <div>testGetSkillTally() : {{ testGetSkillTally() }}</div>
+        <UButton label="Test `getSkillTally()`" @click="testGetSkillTally()" />
+      </div>
 
       <!-- Stats -->
       <h2>Stats</h2>

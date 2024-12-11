@@ -1,14 +1,11 @@
 <script setup lang="ts">
 
 const debug = true;
-const allEqIndex = ref(0);
+const allEqIndex = ref(31);
 
 const props = defineProps<{
   selectedSkills: Object[]
 }>();
-
-const selectedEquipment = ref<Build | null>(null);
-const skillTally = computed(() => selectedEquipment.value ? getBuildSkillTally(selectedEquipment.value) : null);
 
 const allEquipment: EqPiece[] = await getAllEquipment();
 let equipmentByType = computed(() => {
@@ -33,9 +30,30 @@ let equipmentByType = computed(() => {
   return eqByTypeMap;
 });
 
+// const selectedEquipment = ref<Build | null>(null);
+const selectedEquipment = computed<Build>(() => {
+  return {
+    weapon: null as unknown as EqPiece,
+    helmet: allEquipment.find(eqPiece => eqPiece.id === selectedEquipment.value?.helmet.id),
+    // helmet: equipmentByType.value.get('Head').find(eqPiece => eqPiece.id === selectedEquipment.value?.helmet.id),
+    chest: equipmentByType.value.get('Chest')[0],
+    arms: equipmentByType.value.get('Arms')[0],
+    waist: equipmentByType.value.get('Waist')[0],
+    legs: equipmentByType.value.get('Legs')[0],
+    // helmet: (allEquipment.find(eqPiece => eqPiece.itemType === 'Head') as EqPiece),
+    // chest: (allEquipment.find(eqPiece => eqPiece.itemType === 'Chest') as EqPiece),
+    // arms: (allEquipment.find(eqPiece => eqPiece.itemType === 'Arms') as EqPiece),
+    // waist: (allEquipment.find(eqPiece => eqPiece.itemType === 'Waist') as EqPiece),
+    // legs: (allEquipment.find(eqPiece => eqPiece.itemType === 'Legs') as EqPiece),
+  };
+});
+console.log('selectedEquipment.value:', selectedEquipment.value);
+const skillTally = computed(() => selectedEquipment.value ? getSkillTally((selectedEquipment.value as Build)) : "beepy");
+console.log('skillTally.value:', skillTally.value);
+
 let validBuilds = ref<Build[] | null>(null);
 // let currentBuild = computed(() => validBuilds.value ? validBuilds.value[0] : null);
-// let skillTally = computed(() => currentBuild ? getBuildSkillTally(currentBuild) : null);
+// let skillTally = computed(() => currentBuild ? getSkillTally(currentBuild) : null);
 
 const calculateEquipment = () => {
  
@@ -73,16 +91,23 @@ const calculateEquipment = () => {
 
   <div class="flex flex-row gap-4 w-full">
     <h2>Equipment Skills</h2>
-    <template v-if="skillTally">
+    <pre>Skill Tally: {{ skillTally }}</pre>
+    <!-- <template v-if="skillTally"> -->
       <span v-for="skill in Object.entries(skillTally)">
         {{ skill[0] }} : {{ skill[1] }}
       </span>
-    </template>
+    <!-- </template> -->
   </div>
 
   <!-- Debug -->
   <div v-if="debug">
     <h3>Debug Section</h3>
+    <pre>
+      Selected Equipment:
+      <pre v-for="eq in Object.entries(selectedEquipment)">
+        {{ eq[0] }} : {{ (eq[1] as EqPiece)?.name || 'null' }}
+      </pre>
+    </pre>
     <!-- <pre>skillTally: {{ skillTally }}</pre> -->
     <!-- <UDivider /> -->
     <!-- <pre v-if="validBuilds">validBuilds: {{ validBuilds[0] }}</pre> -->

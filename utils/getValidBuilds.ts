@@ -2,6 +2,10 @@ export default function (selectedSkills, eqByType): Build[] {
 
   const selectedSkillIds: string[] = selectedSkills.map((skill: Object) => skill.id);
 
+  if (selectedSkillIds.length === 0) {
+    return [];
+  }
+
   return [];
 
   // console.log(
