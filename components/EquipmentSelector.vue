@@ -2,6 +2,7 @@
 
 const debug = true;
 const allEqIndex = ref(31);
+const eqByTypeIndex = ref(-1);
 
 const props = defineProps<{
   selectedSkills: Object[]
@@ -10,41 +11,47 @@ const props = defineProps<{
 const allEquipment: EqPiece[] = await getAllEquipment();
 let equipmentByType = computed(() => {
   
-  const eqByTypeMap = new Map();  
+  const eqByTypeDict = {};  
   allEquipment.forEach(eqPiece => {
 
-    const eqId = eqPiece.id;
-    const eqType = eqPiece.itemType;
-    const eqSkillMap = new Map();
-    Object.entries(eqPiece.skills).forEach(([skillId, skillLevel]) => {
-      eqSkillMap.set(skillId, skillLevel);
-    });
-    
-    if (eqByTypeMap.has(eqType)) {
-      eqByTypeMap.get(eqType)?.push({ eqId, skills: eqSkillMap });
-    } else {
-      eqByTypeMap.set(eqType, [{ eqId, skills: eqSkillMap }]);
+    if (!eqByTypeDict[eqPiece.itemType]) {
+      eqByTypeDict[eqPiece.itemType] = [];
     }
+
+    eqByTypeDict[eqPiece.itemType].push(eqPiece);
+
   });
 
-  return eqByTypeMap;
+  return eqByTypeDict;
+});
+let eqSkillsByType = computed(() => {
+
+  // if (props.selectedSkills.length <= 0) { return; }
+
+  const eqSkillsByTypeDict = {};
+  allEquipment.forEach(eqPiece => {
+
+    if (!eqSkillsByTypeDict[eqPiece.itemType]) {
+      eqSkillsByTypeDict[eqPiece.itemType] = [];
+    }
+
+    eqSkillsByTypeDict[eqPiece.itemType].push(eqPiece.skills);
+
+  });
+
+  return eqSkillsByTypeDict;
+
 });
 
 // const selectedEquipment = ref<Build | null>(null);
 const selectedEquipment = computed<Build>(() => {
   return {
     weapon: null as unknown as EqPiece,
-    helmet: allEquipment.find(eqPiece => eqPiece.id === selectedEquipment.value?.helmet.id),
-    // helmet: equipmentByType.value.get('Head').find(eqPiece => eqPiece.id === selectedEquipment.value?.helmet.id),
-    chest: equipmentByType.value.get('Chest')[0],
-    arms: equipmentByType.value.get('Arms')[0],
-    waist: equipmentByType.value.get('Waist')[0],
-    legs: equipmentByType.value.get('Legs')[0],
-    // helmet: (allEquipment.find(eqPiece => eqPiece.itemType === 'Head') as EqPiece),
-    // chest: (allEquipment.find(eqPiece => eqPiece.itemType === 'Chest') as EqPiece),
-    // arms: (allEquipment.find(eqPiece => eqPiece.itemType === 'Arms') as EqPiece),
-    // waist: (allEquipment.find(eqPiece => eqPiece.itemType === 'Waist') as EqPiece),
-    // legs: (allEquipment.find(eqPiece => eqPiece.itemType === 'Legs') as EqPiece),
+    helmet: (allEquipment.find(eqPiece => eqPiece.itemType === 'Head') as EqPiece),
+    chest: (allEquipment.find(eqPiece => eqPiece.itemType === 'Chest') as EqPiece),
+    arms: (allEquipment.find(eqPiece => eqPiece.itemType === 'Arms') as EqPiece),
+    waist: (allEquipment.find(eqPiece => eqPiece.itemType === 'Waist') as EqPiece),
+    legs: (allEquipment.find(eqPiece => eqPiece.itemType === 'Legs') as EqPiece),
   };
 });
 console.log('selectedEquipment.value:', selectedEquipment.value);
@@ -80,7 +87,7 @@ const calculateEquipment = () => {
 
   <div class="flex flex-row gap-4 w-full">
 
-    <EquipmentSlot title="Weapon" :equipment="selectedEquipment?.weapon"></EquipmentSlot>
+    <!-- <EquipmentSlot title="Weapon" :equipment="selectedEquipment?.weapon"></EquipmentSlot> -->
     <EquipmentSlot title="Helmet" :equipment="selectedEquipment?.helmet"></EquipmentSlot>
     <EquipmentSlot title="Chest" :equipment="selectedEquipment?.chest"></EquipmentSlot>
     <EquipmentSlot title="Arms" :equipment="selectedEquipment?.arms"></EquipmentSlot>
@@ -91,7 +98,6 @@ const calculateEquipment = () => {
 
   <div class="flex flex-row gap-4 w-full">
     <h2>Equipment Skills</h2>
-    <pre>Skill Tally: {{ skillTally }}</pre>
     <!-- <template v-if="skillTally"> -->
       <span v-for="skill in Object.entries(skillTally)">
         {{ skill[0] }} : {{ skill[1] }}
@@ -102,12 +108,12 @@ const calculateEquipment = () => {
   <!-- Debug -->
   <div v-if="debug">
     <h3>Debug Section</h3>
-    <pre>
+    <!-- <div>
       Selected Equipment:
       <pre v-for="eq in Object.entries(selectedEquipment)">
         {{ eq[0] }} : {{ (eq[1] as EqPiece)?.name || 'null' }}
       </pre>
-    </pre>
+    </div> -->
     <!-- <pre>skillTally: {{ skillTally }}</pre> -->
     <!-- <UDivider /> -->
     <!-- <pre v-if="validBuilds">validBuilds: {{ validBuilds[0] }}</pre> -->
@@ -119,20 +125,38 @@ const calculateEquipment = () => {
     <pre v-if="allWaists">allWaists[0]: {{ allWaists[0]?.name }}</pre>
     <pre v-if="allLegs">allLegs[0]: {{ allLegs[0]?.name }}</pre>
     <UDivider /> -->
-    <UDivider />
+    <!-- <UDivider />
     <UButton label="+" @click="allEqIndex++" />
     <UButton label="-" @click="allEqIndex--" />
-    <pre v-if="allEquipment">allEquipment[{{ allEqIndex }}]: {{ allEquipment[allEqIndex] }}</pre>
+    <pre v-if="allEquipment">allEquipment[{{ allEqIndex }}]: {{ allEquipment[allEqIndex] }}</pre> -->
     <UDivider />
     <div>
-      <p>Equipment by Type:</p>
-      <!-- <pre>{{ Object.fromEntries(equipmentByType) }}</pre> -->
-      <pre>equipmentByType['Head']: {{ equipmentByType.get('Head')[0] }}</pre>
-      <pre>equipmentByType['Chest']: {{ equipmentByType.get('Chest')[0] }}</pre>
-      <pre>equipmentByType['Arms']: {{ equipmentByType.get('Arms')[0] }}</pre>
-      <pre>equipmentByType['Waist']: {{ equipmentByType.get('Waist')[0] }}</pre>
-      <pre>equipmentByType['Legs']: {{ equipmentByType.get('Legs')[0] }}</pre>
+      <p>Equipment by Type @ Index {{ eqByTypeIndex }}:</p>
+      <UButton label="+" @click="eqByTypeIndex++" />
+      <UButton label="-" @click="eqByTypeIndex--" />
+
+      <div class="flex flex-row gap-4">
+
+        <div>
+          <pre>equipmentByType['Head']: {{ equipmentByType['Head'][eqByTypeIndex] }}</pre>
+          <pre>equipmentByType['Chest']: {{ equipmentByType['Chest'][eqByTypeIndex] }}</pre>
+          <pre>equipmentByType['Arms']: {{ equipmentByType['Arms'][eqByTypeIndex] }}</pre>
+          <pre>equipmentByType['Waist']: {{ equipmentByType['Waist'][eqByTypeIndex] }}</pre>
+          <pre>equipmentByType['Legs']: {{ equipmentByType['Legs'][eqByTypeIndex] }}</pre>
+        </div>
+
+        <div>
+          <pre>eqSkillsByType['Head']: {{ eqSkillsByType['Head'][eqByTypeIndex] }}</pre>
+          <pre>eqSkillsByType['Chest']: {{ eqSkillsByType['Chest'][eqByTypeIndex] }}</pre>
+          <pre>eqSkillsByType['Arms']: {{ eqSkillsByType['Arms'][eqByTypeIndex] }}</pre>
+          <pre>eqSkillsByType['Waist']: {{ eqSkillsByType['Waist'][eqByTypeIndex] }}</pre>
+          <pre>eqSkillsByType['Legs']: {{ eqSkillsByType['Legs'][eqByTypeIndex] }}</pre>
+        </div>
+
+      </div>
+
     </div>
+    <UDivider />
   </div>
   <!-- !Debug -->
 

@@ -1,10 +1,52 @@
-export default function (selectedSkills, eqByType): Build[] {
+export default function (selectedSkills: Skill[], eqByType): Build[] {
 
   const selectedSkillIds: string[] = selectedSkills.map((skill: Object) => skill.id);
 
   if (selectedSkillIds.length === 0) {
     return [];
   }
+
+  selectedSkills.forEach((skill: Skill) => {
+
+    console.log('Checking for Skill: ', skill);
+
+    const relevantHelmetSkillLevels = eqByType.Head.map((eqPiece: EqPiece) => eqPiece.skills[skill.id]);
+    const relevantChestSkillLevels = eqByType.Chest.map((eqPiece: EqPiece) => eqPiece.skills[skill.id]);
+    const relevantArmsSkillLevels = eqByType.Arms.map((eqPiece: EqPiece) => eqPiece.skills[skill.id]);
+    const relevantWaistSkillLevels = eqByType.Waist.map((eqPiece: EqPiece) => eqPiece.skills[skill.id]);
+    const relevantLegsSkillLevels = eqByType.Legs.map((eqPiece: EqPiece) => eqPiece.skills[skill.id]);
+    console.log('relevantHelmetSkillLevels:', relevantHelmetSkillLevels);
+
+    const validCombinations: Record<string, number>[] = [];
+
+    relevantHelmetSkillLevels.forEach((helmetIndex, helmetSkillLevel) => {
+      relevantChestSkillLevels.forEach((chestIndex, chestSkillLevel) => {
+        relevantArmsSkillLevels.forEach((armsIndex, armsSkillLevel) => {
+          relevantWaistSkillLevels.forEach((waistIndex, waistSkillLevel) => {
+            relevantLegsSkillLevels.forEach((legsIndex, legsSkillLevel) => {
+
+              let skillSum = helmetSkillLevel + chestSkillLevel + 
+                armsSkillLevel + waistSkillLevel + legsSkillLevel;
+
+              if (!(skillSum >= skill.targetLevel)) { return; }
+
+              validCombinations.push({
+                'Head': helmetIndex,
+                'Chest': chestIndex,
+                'Arms': armsIndex,
+                'Waist': waistIndex,
+                'Legs': legsIndex
+              });
+
+            });
+          });
+        });
+      });
+    });
+
+    console.log('validCombinations:', validCombinations);
+
+  });
 
   return [];
 

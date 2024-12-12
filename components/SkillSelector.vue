@@ -12,7 +12,12 @@ const filteredSkills = computed((): Object[] => {
   return allSkills.filter(skill => {
     if (skill.name.toLowerCase().includes(skillSearchInput.value.toLowerCase())) {
       if (!props.selectedSkills.find(selectedSkill => selectedSkill.id === skill.id)) {
+
+        skill.targetLevel = 0;
+        skill.maxLevel = skill.levels.length;
+        
         return skill;
+
       }
     }
   });

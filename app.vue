@@ -14,11 +14,11 @@ const skillModalOpen = ref<boolean>(false);
   <UContainer class="py-4 grid grid-cols-5 gap-4" style="width: 100vw; height: 100vh;">
     <div class="flex flex-col gap-4 col-span-5">
 
-      <div v-if="debug">
+      <!-- <div v-if="debug">
         <h1>Tests</h1>
         <div>testGetSkillTally() : {{ testGetSkillTally() }}</div>
         <UButton label="Test `getSkillTally()`" @click="testGetSkillTally()" />
-      </div>
+      </div> -->
 
       <!-- Stats -->
       <h2>Stats</h2>

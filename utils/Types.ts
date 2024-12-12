@@ -18,7 +18,7 @@ export interface EqPiece {
   thunderResist: number,
   iceResist: number,
   dragonResist: number,
-  skills: Map<string, number>,
+  skills: Record<string, number>,
   slotsRaw?: any | undefined,
   slots: number[],
   tags: string[],
@@ -27,6 +27,19 @@ export interface EqPiece {
 export interface MiniEqPiece {
   id: number,
   skills: Map<string, number>
+}
+
+export interface Skill {
+  id: string,
+  name: string,
+  description: string,
+  levels: Array<any>,
+  targetLevel: number,
+  maxLevel: number,
+}
+
+export interface EqSkill {
+  [key: string]: number
 }
 
 export interface SkillTally {
